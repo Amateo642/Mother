@@ -130,12 +130,12 @@ body {
 
 .slider .slick-arrow.slick-prev {
   left: 0;
-  background: url("/images/left.png") 0 0 / 100% no-repeat;
+  background: url("../images/left.png") 0 0 / 100% no-repeat;
 }
 
 .slider .slick-arrow.slick-next {
   right: 0;
-  background: url("/images/right.png") 0 0 / 100% no-repeat;
+  background: url("../images/right.png") 0 0 / 100% no-repeat;
 }
 
 .slider .slick-dots {
