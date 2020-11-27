@@ -17,7 +17,7 @@ body {
   text-align: center;
   color: black;
   font-size: 20px;
-  background: url("../images/logo.JPG");
+  background: url("../images/logo.JPG") no-repeat;
   background-size: cover;
   background-position: center;
   object-fit: cover;
@@ -201,6 +201,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .header-logo {
+    object-fit: cover;
+  }
   .slider-item {
     height: 500px;
     background-size: contain;
@@ -221,6 +224,9 @@ body {
 }
 
 @media (max-width: 576px) {
+  .header-logo {
+    object-fit: cover;
+  }
   .gradient-logo {
     height: 100px;
   }
@@ -231,6 +237,37 @@ body {
   .slider-item img {
     max-height: 100vh;
     background-size: contain;
+  }
+  .slider .slick-dots {
+    display: none;
+  }
+  .slider .slick-arrow {
+    display: none;
+  }
+  .section-about {
+    background: -webkit-linear-gradient(#b4b4b4, #ffffff);
+  }
+}
+
+@media (max-width: 320px) {
+  .header-navbar {
+    height: 100px;
+  }
+  .header-logo {
+    background-size: contain;
+  }
+  .gradient-logo {
+    height: 100px;
+  }
+  .slider-item {
+    max-height: 300px;
+    width: 100%;
+    background-size: contain;
+  }
+  .slider-item img {
+    max-height: 300px;
+    background-size: contain;
+    width: 100%;
   }
   .slider .slick-dots {
     display: none;
