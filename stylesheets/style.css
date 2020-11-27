@@ -77,6 +77,27 @@ body {
   font-size: 50px;
 }
 
+.section-about {
+  min-height: 100vh;
+  background: linear-gradient(45deg, #a1a1a1, #000000);
+}
+
+.section-about .col-6 img {
+  width: 100%;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.section-about h1 {
+  padding: 10px;
+}
+
+.footer {
+  height: 60px;
+  background: linear-gradient(45deg, #a1a1a1, #000000);
+  color: white;
+}
+
 .slider {
   position: relative;
   min-width: 0;
@@ -147,12 +168,6 @@ body {
 
 .slick-track {
   display: flex;
-}
-
-.footer {
-  height: 60px;
-  background: linear-gradient(45deg, #a1a1a1, #000000);
-  color: white;
 }
 
 .footer .row {
