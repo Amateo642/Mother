@@ -90,6 +90,15 @@ body {
 
 .section-about h1 {
   padding: 10px;
+  color: #ccc;
+}
+
+.section-about p {
+  color: #ccc;
+}
+
+.section-about li {
+  color: #ccc;
 }
 
 .footer {
